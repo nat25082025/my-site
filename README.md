@@ -8,25 +8,12 @@
             padding: 0;
             box-sizing: border-box;
         }
-        :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --secondary: #64748b;
-            --accent: #f59e0b;
-            --light: #f8fafc;
-            --dark: #1e293b;
-            --success: #10b981;
-            --error: #ef4444;
-        }
-
         body {
             font-family: Tahoma, sans-serif;
             line-height: 1.6;
             color: var(--dark);
             background: var(--light);
         }
-</style>
-<style>
         .header {
             ackground: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -37,7 +24,6 @@
             background-image: url('https://4.downloader.disk.yandex.ru/preview/3522825bedef5fa73278fd534405c1bc534ace673c6d0ba91b026b26f412e14e/inf/Qxhu7QL1nTRx8fhHSFwPUpFvEtSd5mQmMEaW0HIUplRc_BgTaBfh9FeI7HG07eyV1Dc42vmr83ZS8O_qLa3XBA%3D%3D?uid=785233413&filename=studiinyi-fon-koncepcia-abstraktnyi-pustoi-gradient-sveta-fioletovyi-studiinyi-fon-komnaty-dla-produkta.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=785233413&tknv=v3&size=1905x953');
             box-shadow: 0 4px 6px rgba(202,119,200,0.5);
         }
-
         .nav {
             display: flex;
             justify-content: space-between;
@@ -46,7 +32,6 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-
         .logo {
             font-size: 2rem;
             font-weight: bold;
@@ -56,15 +41,14 @@
             align-items: center;
             gap: 0.5rem;
         }
-.logo:hover {
-color: white;
+        .logo: hover {
+           color: white;
         }
         .nav-links {
             display: flex;
             gap: 2rem;
             list-style: none;
         }
-
         .nav-links a {
             text-decoration: none;
             color: #B853B7;
@@ -72,16 +56,13 @@ color: white;
             font-size: 1.2rem;
             transition: color 0.4s;
         }
-
         .nav-links a:hover {
             color: white;
         }
-
         .auth-buttons {
             display: flex;
             gap: 5rem;
         }
-
         .btn {
             padding: 0.8rem 1.8rem;
             border: none;
@@ -92,32 +73,26 @@ color: white;
             text-decoration: none;
             display: inline-block;
         }
-
         .btn-primary {
             background: #B853B7;
             color: white;
             font-size: 1.0rem;
-border: 2px solid #B853B7;
+            border: 2px solid #B853B7;
         }
-
         .btn-primary:hover {
             background: #3B0041;
             color: white;
         }
-
         .btn-outline {
             background: transparent;
             border: 2px solid #B853B7;
             color: #B853B7;
             font-size: 1.0rem;
         }
-
         .btn-outline:hover {
             background: #3B0041;
             color: white;
         }
-</style>
-<style>
         /* Hero Section */
         .hero {
             background: rgba(36, 9, 53, 0.9)
@@ -144,9 +119,8 @@ border: 2px solid #B853B7;
             max-width: 1200px;
             margin: 0 auto;
             object-fit: fill;
-background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.5);
         }
-
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
@@ -156,23 +130,19 @@ background: rgba(0, 0, 0, 0.5);
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-
         }
-
         .hero p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
             opacity: 0.9;
             color: white;
         }
-
         /* Stats */
         .stats {
             background-image: url('https://4.downloader.disk.yandex.ru/preview/3522825bedef5fa73278fd534405c1bc534ace673c6d0ba91b026b26f412e14e/inf/Qxhu7QL1nTRx8fhHSFwPUpFvEtSd5mQmMEaW0HIUplRc_BgTaBfh9FeI7HG07eyV1Dc42vmr83ZS8O_qLa3XBA%3D%3D?uid=785233413&filename=studiinyi-fon-koncepcia-abstraktnyi-pustoi-gradient-sveta-fioletovyi-studiinyi-fon-komnaty-dla-produkta.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=785233413&tknv=v3&size=1905x953');
             box-shadow: 0 4px 6px rgba(202,119,200,0.5);
             padding: 2rem 2rem;
         }
-
         .stats-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -181,26 +151,22 @@ background: rgba(0, 0, 0, 0.5);
             margin: 0 auto;
             text-align: center;
         }
-
         .stat-item {
             padding: 3rem;
             box-shadow: 0 4px 6px rgba(202,119,200,0.5);
             border-radius: 10px;
             padding: 1.5rem;
         }
-
         .stat-number {
             font-size: 2rem;
             font-weight: bold;
             color: white;
             margin-bottom: 0.5rem;
         }
-
         .stat-text {
             color: var(--secondary);
             font-weight: 500;
         }
-
         /* Features */
         .features {
             padding: 4rem 2rem;
@@ -220,18 +186,18 @@ background: rgba(0, 0, 0, 0.5);
         .features h2{
            color: white;
            font-size: 3rem;
-background: rgba(0, 0, 0, 0.4);
+           background: rgba(0, 0, 0, 0.4);
         }
-     .features-content {
+       .features-content {
             max-width: 1200px;
             margin: 0 auto;
             object-fit: fill;
-background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.8);
         }
        .features h4{
            color: white;
            font-size: 2rem;
-background: rgba(0, 0, 0, 0.4);
+           background: rgba(0, 0, 0, 0.4);
         }
         .features-grid {
             display: grid;
@@ -241,7 +207,6 @@ background: rgba(0, 0, 0, 0.4);
             margin: 0 auto;
             background: rgba(0, 0, 0, 0.1);
         }
-
         .feature-card {
             background: #f8f4ff;
             padding: 2rem;
@@ -250,11 +215,9 @@ background: rgba(0, 0, 0, 0.4);
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.3s;
         }
-
         .feature-card:hover {
             transform: translateY(-5px);
         }
-
         .feature-icon1 {
             font-size: 3rem;
             width: 90px;
@@ -266,8 +229,7 @@ background: rgba(0, 0, 0, 0.4);
             left: 100px;
             background-image: url('https://cs.pikabu.ru/post_img/2013/07/07/5/1373175382_13466441.gif');
         }
-
-.feature-icon2 {
+       .feature-icon2 {
             font-size: 3rem;
             width: 90px;
             height: 90px;
@@ -278,8 +240,7 @@ background: rgba(0, 0, 0, 0.4);
             left: 100px;
             background-image: url('https://media.tenor.com/b5XHV7J_8P4AAAAS/cat-staring.gif');
         }
-
-.feature-icon3 {
+       .feature-icon3 {
             font-size: 3rem;
             width: 90px;
             height: 90px;
@@ -290,23 +251,21 @@ background: rgba(0, 0, 0, 0.4);
             left: 100px;
             background-image: url('https://steamuserimages-a.akamaihd.net/ugc/785234490379541326/A887B1F29F29345DC464D46D60ACFB34BE8B8B5D/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false');
         }
-
         /* Job Categories */
         .categories {
             padding: 4rem 2rem;
             background-image: url('https://4.downloader.disk.yandex.ru/preview/3522825bedef5fa73278fd534405c1bc534ace673c6d0ba91b026b26f412e14e/inf/Qxhu7QL1nTRx8fhHSFwPUpFvEtSd5mQmMEaW0HIUplRc_BgTaBfh9FeI7HG07eyV1Dc42vmr83ZS8O_qLa3XBA%3D%3D?uid=785233413&filename=studiinyi-fon-koncepcia-abstraktnyi-pustoi-gradient-sveta-fioletovyi-studiinyi-fon-komnaty-dla-produkta.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=785233413&tknv=v3&size=1905x953');
             box-shadow: 0 4px 6px rgba(202,119,200,0.5);
         }
-.categories h2 {
-color: white;
-font-size: 3rem;
-}
-
+        .categories h2 {
+            color: white;
+            font-size: 3rem;
+            }
         }
-.categories h3 {
-color: white;
-font-size: 2rem;
-}
+       .categories h3 {
+            color: white;
+            font-size: 2rem;
+       }
         .categories-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -314,7 +273,6 @@ font-size: 2rem;
             max-width: 1200px;
             margin: 0 auto;
         }
-
         .category-card {
             background: #fac8f0;
             padding: 1.5rem;
@@ -323,16 +281,13 @@ font-size: 2rem;
             transition: all 0.3s;
             cursor: pointer;
         }
-
         .category-card:hover {
             background: #B853B7;
             color: white;
         }
-
         .category-card:hover h3 {
             color: white;
         }
-
         /* Testimonials */
         .testimonials {
            padding: 2rem 2rem;
@@ -340,7 +295,6 @@ font-size: 2rem;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-            
                 background-color: #3B0041;
                 background-image: url('https://img.restoclub.ru/uploads/article/a/4/4/4/a4445782fddd41038c528b79904e28ef_w1200_h630--c.jpeg');
         }
@@ -349,7 +303,6 @@ color: white;
 background: linear-gradient(135deg, #2b003d 1%, #07000a 100%);
 font-size: 3rem;
 }
-
         .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -357,26 +310,22 @@ font-size: 3rem;
             max-width: 1200px;
             margin: 0 auto;
         }
-
         .testimonial-card {
             background: white;
             padding: 2rem;
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-
         .testimonial-text {
             font-style: italic;
             margin-bottom: 1rem;
             color: var(--secondary);
         }
-
         .testimonial-author {
             display: flex;
             align-items: center;
             gap: 1rem;
         }
-
         .author-avatar {
             width: 50px;
             height: 50px;
@@ -388,7 +337,6 @@ font-size: 3rem;
             color: white;
             font-weight: bold;
         }
-
         /* CTA Section */
         .cta {
             background-image: url('https://1.downloader.disk.yandex.ru/preview/ff58aa6ee970b78761cbfbef715c8550f1d4c2fe8f3dfe36195bcc7617c1b6e1/inf/k2RdGcPLtXXL151Y-K8qWf3WIY4UaCQmZFT-qFBlGYBfrMuJ2a3VrTgTNQJBy286w4D69g-Y2fuOPxDkZGlNAQ%3D%3D?uid=785233413&filename=vlaznye-list-a-rastenia-monstera-deliciosa-v-sadu.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=785233413&tknv=v3&size=1905x953');
@@ -401,12 +349,10 @@ font-size: 3rem;
             padding: 4rem 2rem;
             text-align: center;
         }
-
         .cta-content {
             max-width: 600px;
             margin: 0 auto;
         }
-
         /* Footer */
         .footer {
             background: linear-gradient(135deg, #320b35 8%, #0c030d 92%);
@@ -414,7 +360,6 @@ font-size: 3rem;
             padding: 3rem 2rem;
             text-align: center;
         }
-
         .footer-content {
             max-width: 1200px;
             margin: 0 auto;
@@ -422,52 +367,42 @@ font-size: 3rem;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
         }
-
         .footer-section h3 {
             margin-bottom: 1rem;
             color: var(--accent);
         }
-
         .footer-links {
             list-style: none;
         }
-
         .footer-links a {
             color: #cbd5e1;
             text-decoration: none;
             transition: color 0.3s;
         }
-
         .footer-links a:hover {
             color: white;
         }
-
         .footer-bottom {
             text-align: center;
             margin-top: 2rem;
             padding-top: 2rem;
             border-top: 1px solid #374151;
         }
-
         /* Responsive */
         @media (max-width: 768px) {
             .nav {
                 flex-direction: column;
                 gap: 1rem;
             }
-
             .nav-links {
                 gap: 1rem;
             }
-
             .hero h1 {
                 font-size: 2rem;
             }
-
             .auth-buttons {
                 flex-direction: column;
             }
-
             .stats-grid {
                 grid-template-columns: 1fr;
             }
