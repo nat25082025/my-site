@@ -11,14 +11,14 @@
         body {
             font-family: Tahoma, sans-serif;
             line-height: 1.6;
-            color: var(--dark);
-            background: var(--light);
+            color: dark;
+            background: light;
         }
         .header {
             ackground: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2 10 rgba(0,0,0,0.1);
             position: fixed;
-            width: 100%;
+            width: 1200;
             top: 0;
             z-index: 1000;
             background-image: url('https://4.downloader.disk.yandex.ru/preview/3522825bedef5fa73278fd534405c1bc534ace673c6d0ba91b026b26f412e14e/inf/Qxhu7QL1nTRx8fhHSFwPUpFvEtSd5mQmMEaW0HIUplRc_BgTaBfh9FeI7HG07eyV1Dc42vmr83ZS8O_qLa3XBA%3D%3D?uid=785233413&filename=studiinyi-fon-koncepcia-abstraktnyi-pustoi-gradient-sveta-fioletovyi-studiinyi-fon-komnaty-dla-produkta.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=785233413&tknv=v3&size=1905x953');
