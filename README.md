@@ -3,7 +3,7 @@
 <head>
     <title>Главная</title>
     <style>
-        * {
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -28,7 +28,6 @@
         }
 </style>
 <style>
-        /* Header */
         .header {
             ackground: white;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
