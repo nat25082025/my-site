@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="js bx-core bx-win bx-no-touch bx-no-retina bx-chrome" lang="ru">
 <head>
     <title>Пригласительное</title>
     <style>
