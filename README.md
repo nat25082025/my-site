@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html class="js bx-core bx-win bx-no-touch bx-no-retina bx-chrome" lang="ru">
 <head>
+    <meta charset charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Пригласительное</title>
     <style>
         * {
