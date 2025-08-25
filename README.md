@@ -14,6 +14,7 @@
             color: dark;
             background: light;
         }
+        /* Header */
         .header {
             ackground: white;
             box-shadow: 0 2 10 rgba(0,0,0,0.1);
@@ -424,7 +425,7 @@ font-size: 3rem;
         <nav class="nav">
             <a href="https://images.steamusercontent.com/ugc/16467511137534053331/3ADD292F034496AD6184AA647F2550774937A2F2/?imw=512&amp;imh=341&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" class="logo">
                 <span style="font-size: 2rem;"></span>
-                Я ИДУ ПИТЬ ПИВО<p>&#127866</p>
+                Я ИДУ ПИТЬ ПИВО
             </a>
             <ul class="nav-links">
                 <li><a href="#">Я НЕ МОГУ...</a></li>
@@ -432,7 +433,6 @@ font-size: 3rem;
             </ul>
         </nav>
     </header>
-
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
