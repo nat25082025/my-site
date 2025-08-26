@@ -1,4 +1,4 @@
-<html class="js bx-core bx-win bx-no-touch bx-no-retina bx-chrome" lang="ru">
+!DOCTYPE html><html class="js bx-core bx-win bx-no-touch bx-no-retina bx-chrome" lang="ru">
 <head>
     <meta charset charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -450,7 +450,6 @@ font-size: 3rem;
             </div>
         </div>
     </section>
-
     <!-- Stats Section -->
     <section class="stats">
         <div class="stats-grid">
@@ -468,7 +467,6 @@ font-size: 3rem;
             </div>
         </div>
     </section>
-
     <!-- Features -->
     <section class="features">
 <div class=features-content">
@@ -490,7 +488,6 @@ font-size: 3rem;
           </div>
         </div>
     </section>
-
     <!-- Job Categories -->
     <section class="categories">
         <h2 style="text-align: center; margin-bottom: 3rem; font-size: 3rem;">ПРОСТО ПОДУМАЙ О ТОМ, СКОЛЬКО В МИРЕ НЕВЫПИТОГО ПИВА ЖДЕТ ТЕБЯ</h2>
