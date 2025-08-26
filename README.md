@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html class="js bx-core bx-win bx-no-touch bx-no-retina bx-chrome" lang="ru">
 <head>
     <meta charset charset="UTF-8">
